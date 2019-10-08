@@ -1,0 +1,32 @@
+.App{
+    background: ivory;
+}
+
+.App-main{
+    display: flex;
+}
+
+.App-main .App-section{
+    position: relative;
+    padding-top: 150px;
+    width: 100%;
+    /* 클래스 추가해서 ?? */
+    max-width: 935px;
+    margin: 0 auto;
+
+}
+.App-main .App-section .App-container{
+    float: left;
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+}
+
+.App-main .App-side{
+    position: absolute; 
+    padding: 0;
+    top: 160px;
+    right: 0;
+    max-width: 293px;
+    width: 100%;
+}

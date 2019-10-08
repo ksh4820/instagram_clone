@@ -1,0 +1,156 @@
+.sprite_heart_gray,
+.sprite_comment_gray, 
+.sprite_share_gray, 
+.sprite_save_gray{
+    background-image: url(../../sprite.png);
+    /* png 파일 1/4 축소 */
+    background-size: 405px 379px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    /* 아이콘 25*25 */
+}
+/* .Post {
+    width: 700px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-top: 7%;
+    margin-bottom: 60px;
+    margin-left : 20%;
+    margin-right: 20%;
+}
+.Post-user {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+.Post-user{
+    background-image: url(../../kang.jpg)
+}
+.Post-user-avatar {
+    width: 30px;
+    height: 30px;
+}
+.Post-user-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Post-user-nickname {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.Post-image{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.Post-image-bg {
+    background-color: #efefef;
+}
+.Post-image img {
+    display: block;
+    width: 100%;
+}
+.Post-caption {
+    padding: 16px 16px;
+}
+.Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+} */
+@import 'reset.css';
+
+article, div, header, main, nav, section{
+    position: relative;
+}
+
+.article_container{
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    width: 600px;
+    margin-bottom: 60px;
+}
+
+.Post{
+    background: #fff;
+}
+.Post_header{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.Post_header .user_picture img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.Post_header .user_name{
+    margin-left: 16px;
+}
+.Post_cont{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.Post_cont .img_cont{
+    background-color: #efefef;
+}
+.Post_cont .img_cont img{
+    display: block;
+    width: 100%;
+}
+/* 버튼, 댓글, 좋아요 */
+button{
+    all:unset;
+}
+
+.btn1, .btn2, .btn3, .btn4{
+    display: inline-block;
+}
+/* .btn1{
+    margin-left: -8px;
+} */
+
+.Post_bot{
+
+}
+.Post_bot .bot_button{
+    padding: 0 16px;
+
+}
+/* .bot_button:first-child{
+    margin-top: 8px;
+} */
+
+.bot_button .btn{
+    min-width: 40px;
+    min-height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.bot_button .btn .sprite_heart_gray,
+.sprite_share_gray{
+    background-position: -125px -330px;
+}
+.sprite_comment_gray{
+    background-position: -258px -177px; 
+}
+
+.btn4{
+    margin-left: 420px;
+    margin-right: -20px;
+}
+.sprite_save_gray{
+    background-position: -150px -355px;
+}
+.block{
+    display: block;
+}
